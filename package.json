@@ -64,5 +64,11 @@
   },
   "optionalDependencies": {
     "@next/swc-darwin-arm64": "16.1.4"
+  },
+  "overrides": {
+    "postcss": ">=8.5.10",
+    "esbuild": ">=0.25.5",
+    "yaml": ">=2.8.3",
+    "fast-xml-parser": ">=5.7.0"
   }
 }
